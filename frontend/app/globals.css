@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: 38, 116, 165, 1;
+  --background: 242, 242, 242, 1;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground));
+  background: var(--background)
+}
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+/* Color Theme Swatches in Hex */
+.blue-toned-jet-engine-blades-closeup-1-hex { color: #1D2F40; }
+.blue-toned-jet-engine-blades-closeup-2-hex { color: #6387A6; }
+.blue-toned-jet-engine-blades-closeup-3-hex { color: #2675A6; }
+.blue-toned-jet-engine-blades-closeup-4-hex { color: #9BD1F2; }
+.blue-toned-jet-engine-blades-closeup-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.blue-toned-jet-engine-blades-closeup-1-rgba { color: rgba(28, 47, 63, 1); }
+.blue-toned-jet-engine-blades-closeup-2-rgba { color: rgba(99, 134, 165, 1); }
+.blue-toned-jet-engine-blades-closeup-3-rgba { color: rgba(38, 116, 165, 1); }
+.blue-toned-jet-engine-blades-closeup-4-rgba { color: rgba(155, 208, 242, 1); }
+.blue-toned-jet-engine-blades-closeup-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.blue-toned-jet-engine-blades-closeup-1-hsla { color: hsla(208, 37, 18, 1); }
+.blue-toned-jet-engine-blades-closeup-2-hsla { color: hsla(208, 27, 52, 1); }
+.blue-toned-jet-engine-blades-closeup-3-hsla { color: hsla(202, 62, 39, 1); }
+.blue-toned-jet-engine-blades-closeup-4-hsla { color: hsla(202, 77, 77, 1); }
+.blue-toned-jet-engine-blades-closeup-5-hsla { color: hsla(0, 0, 95, 1); }
